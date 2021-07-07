@@ -116,7 +116,6 @@ a:after {
 
 
 #section-topbar ul#nav a {
-	float: left;
   display: block;
   font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
@@ -253,6 +252,7 @@ a:after {
 
 .desc {
 	padding-top: 50px;
+	max-width: 7000px
 }
 
 .desc p {

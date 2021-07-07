@@ -752,7 +752,12 @@ pre code {
   margin-left: auto;
 }
 
+.smoothScroll {
+  .scroll-behavior: smooth;
+}
+
 .container:before,
+.scroll-behavior: smooth;
 .container:after {
   display: table;
   content: " ";
