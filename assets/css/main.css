@@ -252,7 +252,7 @@ a:after {
 
 .desc {
 	padding-top: 50px;
-	max-width: 7000px
+	min-width: 1450px
 }
 
 .desc p {
