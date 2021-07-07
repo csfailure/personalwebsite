@@ -77,6 +77,7 @@ a:after {
 	z-index: 10000;
 	overflow: visible;
 	font: normal 16px/24px  'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+	transition: top 0.3s;
 }
 
 #section-topbar a {
@@ -99,7 +100,7 @@ a:after {
 	position: relative;
 	margin: 0;
 	padding: 0;
-
+	transition: top 0.5s;
 	border-right: 1px solid #222;
 
 	/* For IE, the outcast */
@@ -115,6 +116,7 @@ a:after {
 
 
 #section-topbar ul#nav a {
+	float: left;
   display: block;
   font: normal 11px/18px "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-decoration: none;
